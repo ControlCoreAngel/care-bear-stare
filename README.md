@@ -1,13 +1,9 @@
-# Shinigami Eyes
+# CARE BEARS, STARE!
 
-A Chrome/Firefox addon that highlights transphobic/anti-LGBT and trans-friendly subreddits/users/facebook pages/groups with different colors.
+Probably won't become anything. I don't know TS or how to make an addon for browsers or anything, so this will probably just sit here as a fork with no change to code and not publicly up anywhere.
 
-For more information: [Shinigami Eyes website](https://shinigami-eyes.github.io/)
+## WHAT I HOPE IT'D BECOME
 
-* [Shinigami Eyes for Chrome](https://chrome.google.com/webstore/detail/ijcpiojgefnkmcadacmacogglhjdjphj/)
-* [Shinigami Eyes for Firefox](https://addons.mozilla.org/en-US/firefox/addon/shinigami-eyes/)
+A Firefox (and Chrome?) addon that marks LGBT+phobes of all ilk, from TERFs to exclusionists to anti-intersex. Because Shinigami Eyes failed us.
 
-
-
-![Screenshot](https://raw.githubusercontent.com/shinigami-eyes/shinigami-eyes/master/images/preview.png)
-
+Fork of Shinigami Eyes.
