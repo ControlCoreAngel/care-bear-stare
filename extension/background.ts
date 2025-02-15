@@ -1,3 +1,5 @@
+import { BloomFilter, CombinedBloomFilter } from "./bloomfilter.js";
+
 var browser: Browser = browser || chrome;
 
 const PENDING_SUBMISSIONS = ':PENDING_SUBMISSIONS'
@@ -977,7 +979,7 @@ function openOptions() {
 }
 
 function getURL(path: string) { 
-    return browser.extension.getURL(path);
+    return chrome.runtime.getURL(path);
 }
 
 

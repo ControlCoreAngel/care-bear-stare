@@ -975,7 +975,7 @@ browser.runtime.onMessage.addListener<ShinigamiEyesMessage, ShinigamiEyesSubmiss
                         linkId: message.linkId,
                         wantIdForScreenName: twitterUserName
                     };
-                    const response = await findTwitterNumericIdsFirefox(request);
+                    const response = await findTwitterNumericIdsChrome(request);
                     const twitterMapping = response.mappings?.filter(x => twitterUserName == x.userName?.toLowerCase())[0];
                     if (twitterMapping)
                         message.secondaryIdentifier = 'twitter.com/i/user/' + twitterMapping.numericId;      

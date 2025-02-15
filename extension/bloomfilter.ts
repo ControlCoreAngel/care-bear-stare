@@ -1,4 +1,4 @@
-class BloomFilter {
+export class BloomFilter {
 
   m: number;
   k: number;
@@ -107,7 +107,7 @@ function fnv_mix(a: number) {
   return a & 0xffffffff;
 }
 
-class CombinedBloomFilter { 
+export class CombinedBloomFilter {
   name: LabelKind;
 
   parts: BloomFilter[];

@@ -1,5 +1,5 @@
 {
-    "manifest_version": 2,
+    "manifest_version": 3,
     "name": "Shinigami Eyes",
     "author": "Shinigami Eyes",
     "version": "1.0.37",
@@ -117,16 +117,15 @@
                 "https://x.com/*",
                 "https://twitter.com/*"
             ],
+            "world": "MAIN",
             "js": [
                 "content-web.js"
             ]
         }
     ],
     "background": {
-        "scripts": [
-            "bloomfilter.js",
-            "background.js"
-        ]
+        "service_worker": "background.js",
+        "type": "module"
     },
     "options_ui": {
         "page": "options.html",
@@ -134,13 +133,9 @@
     },
     "permissions": [
         "contextMenus",
-        "storage",
-        "*://*/*"
+        "storage"
     ],
-    "applications": {
-        "gecko": {
-            "id": "shinigamieyes@shinigamieyes",
-            "strict_min_version": "60.0"
-        }
-    }
+    "host_permissions": [
+        "*://*/*"
+    ]
 }
